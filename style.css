@@ -433,7 +433,7 @@ body{
 }
 
 .projetos{
-  padding: 80px 3%;
+  padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff23; 
   display: grid;
   flex-wrap: wrap; 
@@ -444,13 +444,13 @@ body{
     align-items: center;
     justify-content: center;
     margin-right: 0%;
-    gap: 38px;
+    gap: 40px;
     
 
 }
 .img-port{
-    width: 320px;
-    height: 420px;
+    width: 333px;
+    height: 444px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 7s;
