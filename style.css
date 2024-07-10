@@ -397,6 +397,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 420px;
+        margin-right: 5%;
     }
 
 }
@@ -433,7 +434,7 @@ body{
 }
 
 .projetos{
-  padding: 80px 4%;
+  padding: 80px 3%;
   box-shadow: 0 0 40px 10px #ffffff23; 
   display: grid;
   flex-wrap: wrap; 
@@ -449,8 +450,8 @@ body{
 
 }
 .img-port{
-    width: 333px;
-    height: 444px;
+    width: 285px;
+    height: 395px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 7s;
@@ -518,8 +519,8 @@ body{
     margin-left: 1%;
 }
 .habilidades .skill{
-    width: 40%;
-    margin-left: 1%;
+    width: 43%;
+    margin-left: 1.3%;
         
 }
 
