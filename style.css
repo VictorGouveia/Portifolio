@@ -397,7 +397,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 420px;
-        margin-right: 5%;
+        margin-left: -3%;
     }
 
 }
@@ -450,8 +450,8 @@ body{
 
 }
 .img-port{
-    width: 285px;
-    height: 395px;
+    width: 415px;
+    height: 515px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 7s;
@@ -495,6 +495,12 @@ body{
     display: flex;
     gap: 100px;
 }
+}
+@media  screen and(min-width: 1280px){
+    .img-port{
+        width: 315px;
+        height: 415px;
+    }
 }
 
 
