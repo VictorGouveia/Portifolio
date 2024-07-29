@@ -391,14 +391,14 @@ body{
 
 /* trabalhos /responsivo */
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 275px) and (max-width: 875px){
 
     .trabalhos{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 420px;
+        width: 450px;
         margin-left: -3%;
     }
 
@@ -493,16 +493,18 @@ body{
 
 
 /* projetos /responsivo */
-@media screen and (max-width: 768px){
+@media screen and (min-width: 275px) and (max-width: 875px){
     .projetos .flex{
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
-    width: 250px;
-    height: 1960px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
+    .projetos-box .img-port{
+        width: 380px;
+
+    }
 }
 @media  screen and(min-width: 1280px){
     .img-port{
