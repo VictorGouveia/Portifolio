@@ -498,8 +498,8 @@ body{
     flex-direction: column;
     display: flex;
     gap: 100px;
-    width: 320px;
-    height: 2000px;
+    width: 250px;
+    height: 1960px;
     margin-left: 5%;
     margin-right: 5%;
 }
