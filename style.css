@@ -339,7 +339,7 @@ body{
 .trabalhos{
     display: flex;
     margin-bottom: 2rem;
-    width: 25%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     margin-left: 15%;
@@ -352,6 +352,7 @@ body{
     padding: 160px 6%;    
     cursor: pointer;
     transition: all 0.8s;
+    height: 400px;
 }
 .trabalhos-box:hover{
     transform: scale(1.1);
@@ -384,6 +385,7 @@ body{
 
 .trabalhos-box p{
     color: gray;
+    
 }
 
 
@@ -428,7 +430,8 @@ body{
 }
 
 .projetos-box{
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
     filter: drop-shadow(4px 4px 5px rgb(255, 255, 255));
     
 }
@@ -488,6 +491,7 @@ body{
     transition: 2s;
 }
 
+
 /* projetos /responsivo */
 @media screen and (max-width: 768px){
     .projetos .flex{
@@ -503,6 +507,33 @@ body{
     }
 }
 
+
+/* projetos ver mais */
+
+.vermais-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vermais button{
+    padding: 4px 80px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.vermais button:hover{
+    background-color: #002fca;
+    transition: all 0.8s;    
+}
+.vermais button a{
+    color: #0040FF;
+}
+.vermais button:hover a{
+    color: aliceblue;
+    transition: all 0.8s;
+}
 
 
 /* habilidades */
@@ -717,6 +748,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .trajetoria h6{
