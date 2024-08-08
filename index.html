@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cssanimation lePushReleaseFrom sequence">
 
     <div class="navigation">
         <div class="nav-img">
@@ -17,10 +18,10 @@
         <div class="navigation-menu">
             <ul class="ul-nav" id="nav-menu">
                 <li><a href="#"><span>Home</span></a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Trabalhos</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Habilidades</a></li>
+                <li><a href="#sobreId">Sobre</a></li>
+                <li><a href="#TrabalhosId">Trabalhos</a></li>
+                <li><a href="#ProjetosId">Projetos</a></li>
+                <li><a href="#HabilidadesId">Habilidades</a></li>
                 <ul class="nav-menu-contato" id="nav-menu">
                     <li><a href="#">Contato</a></li>
                 </ul>
@@ -44,7 +45,7 @@
             <h5>Desenvolvedor Web</h5>
             <h4>&</h4>
             <h3>Técnico de Informatica</h3>
-            <button class="contrate-me"><a href="#">Contratar</a></button>
+            <button class="contrate-me"><a href="https://contate.me/victorgouveia">Contratar</a></button>
         </div><!--sessao-txt-->
         <div class="sessao-img">
             <img src="VICTOR_IMG_PORTF-removebg-preview.png" alt="img_portf">
@@ -56,7 +57,7 @@
         <div class="sobre-img">
             <img src="WhatsApp Image 2024-06-22 at 18.47.13.jpeg" alt="minhafoto">
         </div><!--sobre-img-->       
-        <div class="sobre-txt">
+        <div class="sobre-txt"   id="sobreId">
             <h1>Sobre mim</h1>
            <!--
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa non inventore aperiam <br>
@@ -81,8 +82,8 @@
         <h1>Trabalhos</h1>
     </div>
 
-    <div class="trabalhos">
-        <div class="trabalhos-box">
+    <div class="trabalhos" id="TrabalhosId">
+        <div class="trabalhos-box" >
             <h3>LM Informatica</h3>
             <h4><span>Cargo: </span>Suporte Tecnico</h4>
             <p>Atuava na area de Suporte tecnico. de Automação comercial. </p>
@@ -103,19 +104,19 @@
 
 
 
-    <div class="projetos">
+    <div class="projetos" id="ProjetosId">
         <h1>Meus <span>Projetos</span></h1>
         <h2>Alguns dos meus Projetos Atuais</h2>
         <div class="projetos-box">
             <div class="flex">
-                <div class="img-port" style="background-image: url(screencapture-gouveiatech-2024-07-02-19_47_10.png);">
+                <div class="img-port" style="background-image: url(screencapture-victorgouveia-github-io-Teste-Site-2024-08-07-09_37_02.png);">
+                    <div class="overlay">Projeto Portifólio Piscóloga</div>
+                </div>
+                <div class="img-port" style="background-image: url(screencapture-127-0-0-1-5500-gouveiatech-index-html-2024-08-07-19_46_58.png);">
                     <div class="overlay">Projeto GouveiaTech</div>
                 </div>
-                <div class="img-port" style="background-image: url(screencapture-victorgouveia-github-io-Teste-Site-2024-07-02-19_49_12.png);">
-                    <div class="overlay">Projeto Psinataliatavares</div>
-                </div>
-                <div class="img-port" style="background-image: url(screencapture-127-0-0-1-5501-produtos-html-2024-07-02-19_53_02.png);">
-                    <div class="overlay">Projeto Produtos</div>
+                <div class="img-port" style="background-image: url(screencapture-127-0-0-1-5502-index-html-2024-08-07-20_38_10.png);">
+                    <div class="overlay">Projeto Hamburgueria</div>
                 </div>
                 <div class="img-port" style="background-image: url(screencapture-127-0-0-1-5501-index-html-2024-07-02-19_52_14.png);">
                     <div class="overlay">Projeto GTech</div>
@@ -150,7 +151,7 @@
 
 
 
-    <div class="habilidades">
+    <div class="habilidades" id="HabilidadesId">
         <h1>Minhas <span>Habilidades</span></h1>
             <div class="skills-area">
                 <div class="skill">
@@ -232,6 +233,11 @@
         </div>
     </div><!--trajetoria-box-->
 
+</div>
+
     <script src="script.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+   <script type="text/javascript" src="cssanimation-gsap.js"></script>
 </body>
 </html>
