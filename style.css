@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -833,3 +834,54 @@ footer{
     }
 }
 /* /footer */
+
+
+/* banner */
+.banner{
+  display: flex;
+  font-family:'Courier New', Courier, monospace;
+  justify-content: center;
+  align-items: center;
+}
+.banner-escrita h1{
+  
+  margin-bottom: 45%;
+  font-size: 57px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.banner-escrita h6{
+  font-size: 19px;
+  color: #fff;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.telefone1 img, .telefone2 img{
+  width: 510px;
+  filter: drop-shadow(1px 1px 20px rgb(0, 0, 126));
+}
+
+@media (max-width: 768px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  .banner-escrita h1{
+    margin-top: 15%;
+    margin-bottom: 5%;
+
+  }
+  .banner-escrita h6{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+  }
+}
+
+
+/* /banner */
